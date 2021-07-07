@@ -19,6 +19,9 @@
 		A9A8A9E726441F9600F35451 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A8A9E526441F9600F35451 /* Main.storyboard */; };
 		A9A8A9E926441F9900F35451 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A8A9E826441F9900F35451 /* Assets.xcassets */; };
 		A9A8A9EC26441F9900F35451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A8A9EA26441F9900F35451 /* LaunchScreen.storyboard */; };
+		F151FA592695ED4F0023FA8A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F151FA582695ED4F0023FA8A /* UIColor.swift */; };
+		F151FA5B2695F2BF0023FA8A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F151FA5A2695F2BF0023FA8A /* CustomTextField.swift */; };
+		F151FA5D2695F6280023FA8A /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F151FA5C2695F6280023FA8A /* Regex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		A9A8A9E826441F9900F35451 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9A8A9EB26441F9900F35451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9A8A9ED26441F9900F35451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F151FA582695ED4F0023FA8A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		F151FA5A2695F2BF0023FA8A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		F151FA5C2695F6280023FA8A /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 				A9A8A9E826441F9900F35451 /* Assets.xcassets */,
 				A9A8A9EA26441F9900F35451 /* LaunchScreen.storyboard */,
 				A9A8A9ED26441F9900F35451 /* Info.plist */,
+				F151FA582695ED4F0023FA8A /* UIColor.swift */,
+				F151FA5A2695F2BF0023FA8A /* CustomTextField.swift */,
+				F151FA5C2695F6280023FA8A /* Regex.swift */,
 			);
 			path = filRouge;
 			sourceTree = "<group>";
@@ -156,11 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A98DBD972670D90900615DDE /* CustomNavigationController.swift in Sources */,
+				F151FA5B2695F2BF0023FA8A /* CustomTextField.swift in Sources */,
 				A98DBD9D2670D96400615DDE /* EatViewController.swift in Sources */,
 				A98DBDA12670D99A00615DDE /* MoveViewController.swift in Sources */,
 				A9A8A9E426441F9600F35451 /* LoginViewController.swift in Sources */,
+				F151FA5D2695F6280023FA8A /* Regex.swift in Sources */,
 				A98DBD992670D93800615DDE /* CustomTabBarController.swift in Sources */,
 				A9A8A9E026441F9600F35451 /* AppDelegate.swift in Sources */,
+				F151FA592695ED4F0023FA8A /* UIColor.swift in Sources */,
 				A98DBD9F2670D97100615DDE /* SmileViewController.swift in Sources */,
 				A9A8A9E226441F9600F35451 /* SceneDelegate.swift in Sources */,
 				A98DBD9B2670D95800615DDE /* HomeViewController.swift in Sources */,
