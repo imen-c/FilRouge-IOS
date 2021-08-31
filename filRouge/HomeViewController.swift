@@ -11,11 +11,14 @@ class HomeViewController: UIViewController {
 
     @IBOutlet var centeredLabel: UILabel!
 
+  
+    @IBOutlet weak var collectionMenu: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         title = "Accueil"
         centeredLabel.text = "Accueil"
+       // view.ui
     }
     
 
@@ -29,4 +32,19 @@ class HomeViewController: UIViewController {
     }
     */
 
+}
+extension HomeViewController : UICollectionViewDelegate, UICollectionViewDataSource{
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 4
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let collectionCell = collectionMenu.dequeueReusableCell(withReuseIdentifier: "CollectionMenuCell", for: indexPath) as! CollectionMenuCell
+        collectionCell.layer.cornerRadius = 8
+        
+        return collectionCell
+    }
+    
+    
+    
 }

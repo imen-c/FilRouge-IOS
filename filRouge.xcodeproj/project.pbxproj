@@ -22,6 +22,8 @@
 		F151FA592695ED4F0023FA8A /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F151FA582695ED4F0023FA8A /* UIColor.swift */; };
 		F151FA5B2695F2BF0023FA8A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F151FA5A2695F2BF0023FA8A /* CustomTextField.swift */; };
 		F151FA5D2695F6280023FA8A /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F151FA5C2695F6280023FA8A /* Regex.swift */; };
+		F160F1D326DE75A900442FFB /* CollectionMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F160F1D126DE75A900442FFB /* CollectionMenuCell.swift */; };
+		F160F1D426DE75A900442FFB /* CollectionMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F160F1D226DE75A900442FFB /* CollectionMenuCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		F151FA582695ED4F0023FA8A /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		F151FA5A2695F2BF0023FA8A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		F151FA5C2695F6280023FA8A /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
+		F160F1D126DE75A900442FFB /* CollectionMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionMenuCell.swift; sourceTree = "<group>"; };
+		F160F1D226DE75A900442FFB /* CollectionMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionMenuCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				F151FA582695ED4F0023FA8A /* UIColor.swift */,
 				F151FA5A2695F2BF0023FA8A /* CustomTextField.swift */,
 				F151FA5C2695F6280023FA8A /* Regex.swift */,
+				F160F1D126DE75A900442FFB /* CollectionMenuCell.swift */,
+				F160F1D226DE75A900442FFB /* CollectionMenuCell.xib */,
 			);
 			path = filRouge;
 			sourceTree = "<group>";
@@ -151,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F160F1D426DE75A900442FFB /* CollectionMenuCell.xib in Resources */,
 				A9A8A9EC26441F9900F35451 /* LaunchScreen.storyboard in Resources */,
 				A9A8A9E926441F9900F35451 /* Assets.xcassets in Resources */,
 				A9A8A9E726441F9600F35451 /* Main.storyboard in Resources */,
@@ -175,6 +182,7 @@
 				F151FA592695ED4F0023FA8A /* UIColor.swift in Sources */,
 				A98DBD9F2670D97100615DDE /* SmileViewController.swift in Sources */,
 				A9A8A9E226441F9600F35451 /* SceneDelegate.swift in Sources */,
+				F160F1D326DE75A900442FFB /* CollectionMenuCell.swift in Sources */,
 				A98DBD9B2670D95800615DDE /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
